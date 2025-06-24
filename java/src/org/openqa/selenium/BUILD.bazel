@@ -1,7 +1,10 @@
 load("@rules_java//java:defs.bzl", "java_library")
 load("//java:defs.bzl", "java_export")
 
+SE_VERSION = "4.34.0-SNAPSHOT"
+
 java_export(
+    name = "core",
     #    glob([
     #        "*.java",
     #        "federatedcredentialmanagement/*.java",

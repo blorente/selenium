@@ -13,6 +13,7 @@ load("//java:defs.bzl", "artifact")
 # gazelle:exclude java/test
 # gazelle:exclude java/src/dev/selenium
 # gazelle:resolve java com.google.common.primitives @maven//:com_google_guava_guava
+# gazelle:java_resolve_to_java_exports true
 gazelle(
     name = "gazelle",
     gazelle = ":gazelle_bin",
