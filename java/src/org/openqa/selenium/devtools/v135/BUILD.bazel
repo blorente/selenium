@@ -82,3 +82,26 @@ copy_file(
     src = "//common/devtools/chromium/%s:js_protocol" % cdp_version,
     out = "js_protocol.json",
 )
+
+java_library(
+    name = "v135",
+    srcs = [
+        "v135CdpInfo.java",
+        "v135Domains.java",
+        "v135Events.java",
+        "v135Javascript.java",
+        "v135Log.java",
+        "v135Network.java",
+        "v135Target.java",
+    ],
+    visibility = ["//:__subpackages__"],
+    exports = [
+        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium/remote:remote_export",
+    ],
+    deps = [
+        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium/remote:remote_export",
+        "@maven//:com_google_auto_service_auto_service_annotations",
+    ],
+)

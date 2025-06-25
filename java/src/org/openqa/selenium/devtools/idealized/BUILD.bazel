@@ -25,7 +25,7 @@ java_library(
         "//java/src/org/openqa/selenium/devtools/idealized/log",
         "//java/src/org/openqa/selenium/devtools/idealized/target",
         "//java/src/org/openqa/selenium/devtools/idealized/target/model",
-        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/internal",
         "//java/src/org/openqa/selenium/remote/http",
     ],
 )

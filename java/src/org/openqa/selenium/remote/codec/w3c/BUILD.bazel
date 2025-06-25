@@ -10,7 +10,7 @@ java_library(
     exports = ["//java/src/org/openqa/selenium/remote"],
     deps = [
         "//java/src/org/openqa/selenium:core",
-        "//java/src/org/openqa/selenium/devtools/v137",
+        "//java/src/org/openqa/selenium/json",
         "//java/src/org/openqa/selenium/remote",
         "//java/src/org/openqa/selenium/remote/codec",
         "//java/src/org/openqa/selenium/remote/http",

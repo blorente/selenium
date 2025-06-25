@@ -10,7 +10,7 @@ java_library(
     visibility = ["//:__subpackages__"],
     exports = ["//java/src/org/openqa/selenium/grid/config"],
     deps = [
-        "//java/src/org/openqa/selenium/devtools/v135",
         "//java/src/org/openqa/selenium/grid/config",
+        "//java/src/org/openqa/selenium/remote:remote_export",
     ],
 )

@@ -104,9 +104,9 @@ java_library(
         "WrapsElement.java",
     ],
     visibility = ["//:__subpackages__"],
-    exports = ["//java/src/org/openqa/selenium/devtools/v135"],
+    exports = ["//java/src/org/openqa/selenium/remote:remote_export"],
     deps = [
-        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/remote:remote_export",
         "@maven//:org_jspecify_jspecify",
     ],
 )

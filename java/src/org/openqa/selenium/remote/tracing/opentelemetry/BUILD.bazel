@@ -19,8 +19,8 @@ java_library(
         "@maven//:io_opentelemetry_opentelemetry_sdk_trace",
     ],
     deps = [
-        "//java/src/org/openqa/selenium/devtools/v135",
-        "//java/src/org/openqa/selenium/devtools/v137",
+        "//java/src/org/openqa/selenium/internal",
+        "//java/src/org/openqa/selenium/json",
         "//java/src/org/openqa/selenium/remote/tracing",
         "@maven//:io_opentelemetry_opentelemetry_api",
         "@maven//:io_opentelemetry_opentelemetry_context",

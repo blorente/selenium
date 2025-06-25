@@ -15,8 +15,6 @@ java_library(
         "//java/src/org/openqa/selenium/remote:remote_export",
     ],
     deps = [
-        "//java/src/org/openqa/selenium/devtools/v135",
-        "//java/src/org/openqa/selenium/devtools/v137",
         "//java/src/org/openqa/selenium/grid/config",
         "//java/src/org/openqa/selenium/remote:remote_export",
         "//java/src/org/openqa/selenium/remote/tracing/empty",

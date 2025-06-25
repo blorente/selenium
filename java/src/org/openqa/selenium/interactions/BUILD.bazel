@@ -24,7 +24,7 @@ java_library(
     exports = ["//java/src/org/openqa/selenium:core"],
     deps = [
         "//java/src/org/openqa/selenium:core",
-        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/internal",
         "@maven//:org_jspecify_jspecify",
     ],
 )

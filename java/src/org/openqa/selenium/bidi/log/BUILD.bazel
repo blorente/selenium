@@ -19,6 +19,6 @@ java_library(
     deps = [
         "//java/src/org/openqa/selenium/bidi",
         "//java/src/org/openqa/selenium/bidi/script",
-        "//java/src/org/openqa/selenium/devtools/v137",
+        "//java/src/org/openqa/selenium/json",
     ],
 )

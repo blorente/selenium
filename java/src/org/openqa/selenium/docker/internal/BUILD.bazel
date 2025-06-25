@@ -10,9 +10,8 @@ java_library(
     exports = ["//java/src/org/openqa/selenium/docker"],
     deps = [
         "//java/src/org/openqa/selenium:core",
-        "//java/src/org/openqa/selenium/devtools/v135",
-        "//java/src/org/openqa/selenium/devtools/v137",
         "//java/src/org/openqa/selenium/docker",
+        "//java/src/org/openqa/selenium/remote:remote_export",
         "@maven//:com_google_guava_guava",
     ],
 )

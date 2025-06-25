@@ -20,7 +20,7 @@ java_library(
     visibility = ["//:__subpackages__"],
     exports = ["//java/src/org/openqa/selenium/remote/http"],
     deps = [
-        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/internal",
         "//java/src/org/openqa/selenium/remote/http",
     ],
 )

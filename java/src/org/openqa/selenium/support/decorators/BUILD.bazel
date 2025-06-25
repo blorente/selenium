@@ -14,7 +14,7 @@ java_library(
     ],
     deps = [
         "//java/src/org/openqa/selenium:core",
-        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/internal",
         "//java/src/org/openqa/selenium/virtualauthenticator",
         "@maven//:net_bytebuddy_byte_buddy",
     ],

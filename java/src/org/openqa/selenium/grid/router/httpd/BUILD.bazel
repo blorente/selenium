@@ -12,7 +12,6 @@ java_library(
     deps = [
         "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/cli",
-        "//java/src/org/openqa/selenium/devtools/v135",
         "//java/src/org/openqa/selenium/grid",
         "//java/src/org/openqa/selenium/grid/config",
         "//java/src/org/openqa/selenium/grid/distributor",

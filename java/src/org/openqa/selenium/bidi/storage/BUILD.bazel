@@ -18,6 +18,6 @@ java_library(
     exports = ["//java/src/org/openqa/selenium/bidi/network"],
     deps = [
         "//java/src/org/openqa/selenium/bidi/network",
-        "//java/src/org/openqa/selenium/devtools/v137",
+        "//java/src/org/openqa/selenium/json",
     ],
 )
