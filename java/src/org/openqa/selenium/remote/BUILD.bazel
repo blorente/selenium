@@ -59,6 +59,8 @@ java_library(
         "UselessFileDetector.java",
         "W3CHandshakeResponse.java",
         "WebElementToJsonConverter.java",
+        # Added by blorente
+        "//java/src/org/openqa/selenium/remote/internal:WebElementToJsonConverter.java",
     ],
     visibility = ["//:__subpackages__"],
     exports = [
