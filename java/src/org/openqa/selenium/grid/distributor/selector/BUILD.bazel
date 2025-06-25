@@ -10,7 +10,7 @@ java_library(
     visibility = ["//:__subpackages__"],
     exports = ["//java/src/org/openqa/selenium/grid/data"],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/grid/config",
         "//java/src/org/openqa/selenium/grid/data",
         "@maven//:com_google_guava_guava",

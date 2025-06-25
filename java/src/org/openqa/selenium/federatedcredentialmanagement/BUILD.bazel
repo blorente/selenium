@@ -8,5 +8,5 @@ java_library(
         "HasFederatedCredentialManagement.java",
     ],
     visibility = ["//:__subpackages__"],
-    deps = ["//java/src/org/openqa/selenium"],
+    deps = ["//java/src/org/openqa/selenium:core"],
 )

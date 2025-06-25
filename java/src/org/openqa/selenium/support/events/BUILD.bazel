@@ -8,9 +8,7 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     deps = [
-        "//java/src/org/openqa/selenium",
-        "//java/src/org/openqa/selenium/interactions",
-        "//java/src/org/openqa/selenium/remote",
-        "//java/src/org/openqa/selenium/support/decorators",
+        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium/remote:remote_export",
     ],
 )

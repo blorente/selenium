@@ -17,11 +17,11 @@ java_library(
         "WebDriverWait.java",
     ],
     visibility = ["//:__subpackages__"],
-    exports = ["//java/src/org/openqa/selenium"],
+    exports = ["//java/src/org/openqa/selenium:core"],
     deps = [
-        "//java/src/org/openqa/selenium",
-        "//java/src/org/openqa/selenium/internal",
-        "//java/src/org/openqa/selenium/remote",
+        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/remote:remote_export",
         "@maven//:com_google_guava_guava",
     ],
 )

@@ -10,9 +10,9 @@ java_library(
         "NullTracer.java",
     ],
     visibility = ["//:__subpackages__"],
-    exports = ["//java/src/org/openqa/selenium/remote/tracing"],
+    exports = ["//java/src/org/openqa/selenium/remote:remote_export"],
     deps = [
-        "//java/src/org/openqa/selenium/internal",
-        "//java/src/org/openqa/selenium/remote/tracing",
+        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/remote:remote_export",
     ],
 )

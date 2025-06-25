@@ -18,7 +18,7 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/internal",
         "@maven//:org_jspecify_jspecify",
     ],

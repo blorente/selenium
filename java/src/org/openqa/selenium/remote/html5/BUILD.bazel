@@ -11,11 +11,11 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     exports = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/html5",
     ],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/html5",
         "//java/src/org/openqa/selenium/remote",
     ],

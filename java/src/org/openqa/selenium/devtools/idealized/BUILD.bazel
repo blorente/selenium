@@ -12,20 +12,20 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     exports = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/devtools/events",
         "//java/src/org/openqa/selenium/devtools/idealized/log",
         "//java/src/org/openqa/selenium/devtools/idealized/target",
         "//java/src/org/openqa/selenium/remote/http",
     ],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/devtools",
         "//java/src/org/openqa/selenium/devtools/events",
         "//java/src/org/openqa/selenium/devtools/idealized/log",
         "//java/src/org/openqa/selenium/devtools/idealized/target",
         "//java/src/org/openqa/selenium/devtools/idealized/target/model",
-        "//java/src/org/openqa/selenium/internal",
+        "//java/src/org/openqa/selenium/devtools/v135",
         "//java/src/org/openqa/selenium/remote/http",
     ],
 )

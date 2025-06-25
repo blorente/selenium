@@ -7,15 +7,10 @@ java_library(
         "SessionFactory.java",
     ],
     visibility = ["//:__subpackages__"],
-    exports = [
-        "//java/src/org/openqa/selenium/io",
-        "//java/src/org/openqa/selenium/remote",
-    ],
+    exports = ["//java/src/org/openqa/selenium/remote:remote_export"],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/grid/data",
-        "//java/src/org/openqa/selenium/io",
-        "//java/src/org/openqa/selenium/remote",
-        "//java/src/org/openqa/selenium/remote/http",
+        "//java/src/org/openqa/selenium/remote:remote_export",
     ],
 )

@@ -32,8 +32,7 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     deps = [
-        "//java/src/org/openqa/selenium",
-        "//java/src/org/openqa/selenium/internal",
-        "//java/src/org/openqa/selenium/logging",
+        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium/devtools/v135",
     ],
 )

@@ -27,9 +27,9 @@ java_library(
     visibility = ["//:__subpackages__"],
     exports = ["//java/src/org/openqa/selenium/bidi/log"],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/bidi/log",
-        "//java/src/org/openqa/selenium/json",
+        "//java/src/org/openqa/selenium/devtools/v137",
         "//java/src/org/openqa/selenium/remote/http",
     ],
 )

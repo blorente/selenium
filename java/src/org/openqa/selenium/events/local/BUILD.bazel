@@ -5,9 +5,9 @@ java_library(
     srcs = ["GuavaEventBus.java"],
     visibility = ["//:__subpackages__"],
     deps = [
+        "//java/src/org/openqa/selenium/devtools/v135",
         "//java/src/org/openqa/selenium/events",
         "//java/src/org/openqa/selenium/grid/config",
-        "//java/src/org/openqa/selenium/internal",
         "@maven//:com_google_guava_guava",
     ],
 )

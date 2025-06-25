@@ -25,8 +25,8 @@ java_library(
     ],
     visibility = ["//:__subpackages__"],
     deps = [
-        "//java/src/org/openqa/selenium/internal",
-        "//java/src/org/openqa/selenium/json",
+        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/devtools/v137",
         "@maven//:com_beust_jcommander",
         "@maven//:com_google_guava_guava",
         "@maven//:org_tomlj_tomlj",

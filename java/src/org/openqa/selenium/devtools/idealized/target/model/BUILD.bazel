@@ -10,9 +10,9 @@ java_library(
     visibility = ["//:__subpackages__"],
     exports = ["//java/src/org/openqa/selenium/devtools/idealized/browser/model"],
     deps = [
-        "//java/src/org/openqa/selenium",
+        "//java/src/org/openqa/selenium:core",
         "//java/src/org/openqa/selenium/devtools/idealized/browser/model",
-        "//java/src/org/openqa/selenium/internal",
-        "//java/src/org/openqa/selenium/json",
+        "//java/src/org/openqa/selenium/devtools/v135",
+        "//java/src/org/openqa/selenium/devtools/v137",
     ],
 )
