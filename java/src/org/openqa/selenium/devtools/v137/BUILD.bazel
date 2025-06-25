@@ -37,9 +37,9 @@ java_export(
     deps = [
         ":cdp",
         "//java:auto-service",
-        "//java/src/org/openqa/selenium:core",
+        "//java/src/org/openqa/selenium:core_export",
         "//java/src/org/openqa/selenium/json",
-        "//java/src/org/openqa/selenium/remote",
+        "//java/src/org/openqa/selenium/remote_export",
     ],
 )
 

@@ -4,6 +4,7 @@ load("@rules_java//java:defs.bzl", "java_library")
 java_export(
     name = "remote_export",
     maven_coordinates = "com.example:remote:0.1",
+    visibility = ["//:__subpackages__"],
     exports = [":remote"],
 )
 
